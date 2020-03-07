@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<style>
+
+    #container{
+        display:grid;
+        height:800px;
+        max-width:960px;
+        border-top:solid black 1px;
+        border-left:solid black 1px;
+        margin:auto;
+    }
+
+    .colorSquare {
+        border-bottom:solid black 1px;
+        border-right:solid black 1px;
+    }
+    
+    button {
+        margin:0 auto;
+        display:block;
+        margin-bottom: 10px;
+    }
+    h1{
+        text-align:center;
+    }
+    p{
+        text-align:center;
+
+    }
+</style>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Etch-a-sketch</title>
+</head>
+<body>
+    <h1>Etch A Sketch</h1>
+    <p><i>Ben Made This</i></p>
+    <button id=clearButton>Clear</button><button id=changeButton>Change mode</button>
+    <div id='container'>
+    </div>
+    <script src="etchjs.js" defer> </script>
+</body>
